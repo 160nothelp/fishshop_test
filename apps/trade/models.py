@@ -3,7 +3,7 @@ from django.contrib.auth import get_user_model
 
 from goods.models import Goods
 User = get_user_model()
-#对于使用非默认user表的项目，采用此方法，可以准确无误的获取到 面目使用的用户表
+# 对于使用非默认user表的项目，采用此方法，可以准确无误的获取到 目前使用的用户表
 # Create your models here.
 
 

@@ -19,6 +19,7 @@ class UserProfile(AbstractUser):
     def __str__(self):
         return self.username
 
+
 class VerifyCode(models.Model):
     """
     短信验证码
